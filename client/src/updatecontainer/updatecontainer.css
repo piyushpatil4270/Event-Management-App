@@ -1,0 +1,30 @@
+.Updatecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 60%;
+    height: 10%;
+}
+.updatein{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.updateout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.updatename{
+    font-style: "Rubik",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,47 @@
+.usercontainer1{
+
+   width: 100%;
+   height: 25%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+align-items: center;
+
+    
+}
+.usercontainerimg{
+    height: 100%;
+    width: 25%;
+    object-fit: cover;
+}
+.usercontainername{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+}
+.usercontainerflex{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+.usercontsineralt{
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+}
+.usercontsineralt1{
+    border: none;
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+
+}
+.usercontsineralt2{
+    border: none;
+    background-color: rgb(217, 45, 45);
+    color: white;
+    border-radius: 5px;
+}

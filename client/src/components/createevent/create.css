@@ -1,0 +1,38 @@
+.createevent{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color:rgb(246, 246, 246);
+    overflow: scroll;
+}
+.createevetcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10%;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+   
+}
+.createeventhead{
+    font-family: "Rubik",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.createinput{
+    width: 100%;
+   
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 35px;
+
+}
+.createmaineventbtn{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: limegreen;
+    border-radius: 5px;
+    color: white;
+}

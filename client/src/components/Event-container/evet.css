@@ -1,0 +1,81 @@
+.Mainevent{
+    height: calc(100vh -  50px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    background-color:rgb(246, 246, 246);
+}
+.maineventimg{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.maineventcontainer{
+    width: 80%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(74, 74, 81, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+   
+}
+.maineventinfo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    overflow: scroll;
+    height: 100%;
+}
+.maineventname{
+    font-family: "Rubik",sans-serif;
+    font-size: 22px;
+}
+.maineventdetails{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+}
+.maineventcity{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+}
+.maineventbtn{
+    width: 60px;
+    height: 40px;
+    font-family: "Rubik",sans-serif;
+    font-size: 14px;
+    border: none;
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+}
+.maineventbtnapp{
+    
+        width: 60px;
+        height: 40px;
+        font-family: "Rubik",sans-serif;
+        font-size: 14px;
+        border: none;
+        background-color: rgb(233, 148, 36);
+        color: white;
+        border-radius: 5px;
+}
+.pending{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    color: orange;
+}
+.selected{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    color: rgb(25, 213, 25);
+}
+.rejected{
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    color: red;
+}

@@ -1,0 +1,51 @@
+.Login{
+    width: 100%;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(245, 245, 245);
+overflow: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+.loginform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
+    gap: 25px;
+   
+}
+.loginhead{
+    font-family: "Rubik",sans-serif;
+    font-size:25px;
+}
+.logininput{
+    width: 100%;
+   
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.loginbtn{
+    width: 18%;
+    height: 30px;
+    background-color: rgb(113, 113, 113);
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.loginbtn:hover{
+    background-color: rgb(142, 142, 142);
+}
+div.Login div.loginform a{
+    font-family: "Rubik",sans-serif;
+    text-decoration: none;
+    color: inherit;
+}

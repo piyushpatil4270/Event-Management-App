@@ -1,0 +1,12 @@
+.Findevents{
+    height: calc(100vh - 50px);
+    width: 100%;
+    overflow: scroll;
+    background-color:rgb(246, 246, 246);
+}
+div.Findevents div.homeevents div.homeeventcontainer div.homeeventin a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}

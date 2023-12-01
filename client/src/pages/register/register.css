@@ -1,0 +1,47 @@
+.Register{
+    width: 100%;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(245, 245, 245);
+overflow: scroll;
+  
+}
+.registerform{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 25px;
+   
+}
+.registerhead{
+    font-family: "Rubik",sans-serif;
+    font-size:25px;
+}
+.registerinput{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.registerbtn{
+    width: 18%;
+    height: 30px;
+    background-color: rgb(113, 113, 113);
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.registerbtn:hover{
+    background-color: rgb(142, 142, 142);
+}
+div.Register div.registerform a{
+    text-decoration: none;
+    color:inherit;
+    font-family: "Rubik",sans-serif;
+}
